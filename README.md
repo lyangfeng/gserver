@@ -1,19 +1,19 @@
-# lyfserver
+# yserver
 NodeJs静态资源服务器
 
 ## 安装
 
 ```
-npm i lyfserver -g
+npm i yserver -g
 ```
 
 ## 配置
 
 ```
-lyfserver [option]
+yserver [option]
 
 EXAMPLE:
-lyfserver -p 4000    端口号
-lyfserver -h localhost  主机名
-lyfserver -d static   运行项目的目录
+yserver -p 4000    端口号
+yserver -h localhost  主机名
+yserver -d static   运行项目的目录
 ```
