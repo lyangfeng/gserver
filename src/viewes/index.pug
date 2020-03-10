@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title 书写的内容与标签中有一个空格
+  body
+    ul
+      each item in files
+        li
+          //由于url在根路径中充当 / 所以会出现双斜杠的情况 会找不到文件
+          //所以要使用正则进行判断 当url为斜杠时就直接返回 斜杠加item
+          //a(href = url === '/' ? '/' + item : url + '/' + item) #{item}
+          
+          //简写
+          a(href = (url === '/' ? '' : url ) + '/' + item) #{item}
+
+//这里的item代表src
+//item属性可直接书写  如果是变量显示内容则需要书写#{}
