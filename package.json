@@ -1,5 +1,5 @@
 {
-  "name": "yserver",
+  "name": "gserver",
   "version": "0.0.1",
   "description" : "NodeJs静态资源服务器",
   "keywords": [
@@ -8,10 +8,10 @@
   ],
   "main": "src/index.js",
   "repository": {
-    "url": "https://github.com/lyangfeng/yserver"
+    "url": "https://github.com/lyangfeng/gserver"
   },
   "bin": {
-    "yserver": "bin/yserver.js"
+    "gserver": "bin/gserver.js"
   },
   "scripts": {
     "lint": "eslint . --cache",
