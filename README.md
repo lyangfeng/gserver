@@ -14,6 +14,6 @@ gserver [option]
 
 EXAMPLE:
 gserver -p 4000    端口号
-gserver -h localhost  主机名
-gserver -d static   运行项目的目录
+gserver -h localhost   主机名
+gserver -d static   运行的项目的目录
 ```
